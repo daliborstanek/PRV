@@ -1,1 +1,2 @@
-# Zákaznická podpora - projekt PRV
+# VDF-GAMES-KOSTAK
+VDF Games Support Solution
