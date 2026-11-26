@@ -23,7 +23,7 @@ app.config["MAX_CONTENT_LENGTH"] = 32 * 1024
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # Doporučený výchozí model, pokud není zadán vlastní (např. gemini-2.5-flash)
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 # Inicializace klienta Gemini (automaticky načte GEMINI_API_KEY z prostředí)
 client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
